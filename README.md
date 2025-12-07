@@ -10,14 +10,42 @@ Git branches demo folder
 git clone sshKey
 ```
 
-- Then, to push files to GitHub
+- The cycle of git:
 
 ```zsh
 git add .
 ```
 
 or if a specific folder
+:
 
 ```zsh
 git add folderName
 ```
+
+- Then, commit your changes:
+
+```zsh
+git commit -m "commit message"
+```
+
+- Then, push to GitHub:
+
+```zsh
+git push
+```
+
+- To check the state of git, you can get a report by using:
+
+```zsh
+git status
+```
+
+(!) This is about the local status of git; not the status of your online repo.
+
+<!-- ----------------------- -->
+
+GIT BRANCHES
+
+- Branches should be used once per task
+- Once a branch has been merged with main, you should **NEVER (EVER!)** use it again!
